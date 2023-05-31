@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz-spiel.css" />
+  </head>
+  <body>
+    <h1 class="game-headline">Quiz-Spiel</h1>
+
+    <div class="score-container">
+      <h2 class="score-headline">Punkteanzeige</h2>
+      <div class="score-point">
+        <span id="scoreOut">0</span> von <span id="total">10</span>
+      </div>
+      <h2 id="finish-out">Ausgabe</h2>
+    </div>
+
+    <div class="question-div1">
+      <h2>1 Frage</h2>
+      <p></p>
+      <h2>Welchen Zusatz trägt das Land Sachsen im Namen?</h2>
+      <p></p>
+      <ol>
+        <li><b>Königreich</b></li>
+        <li><b>Freistaat</b></li>
+        <li><b>Keinen</b></li>
+        <li><b>Republik</b></li>
+      </ol>
+      <h4>Gebe dein Antwort in das Eingabefeld ein.</h4>
+      <input type="number" placeholder="Eingabefeld" name="" id="question1" />
+      <button onclick="check()">Check 1</button>
+      <p></p>
+      <h3 id="out">Ausgabe</h3>
+    </div>
+
+    <p></p>
+
+    <div class="question-div2">
+      <h2>2 Frage</h2>
+      <p></p>
+      <h2>
+        Welche Flüsse fließen am Deutschen Eck in Rheinland-Pfalz zusammen?
+      </h2>
+      <p></p>
+      <ol>
+        <li><b>Neckar und Donau</b></li>
+        <li><b>Neckar und Rhein</b></li>
+        <li><b>Rhein und Mosel</b></li>
+        <li><b>Rhein und Lahn</b></li>
+      </ol>
+      <h4>Gebe dein Antwort in das Eingabefeld ein.</h4>
+      <input type="number" placeholder="Eingabefeld" name="" id="question2" />
+      <button onclick="check2()">Check 2</button>
+      <p></p>
+      <h3 id="out2">2 Ausgabe</h3>
+    </div>
+
+    <p></p>
+
+    <div class="question-div3">
+      <h2>3 Frage</h2>
+      <p></p>
+      <h2>Wofür ist der Spreewald in Brandenburg berühmt?</h2>
+      <p></p>
+      <ol>
+        <li><b>Gurken</b></li>
+        <li><b>Aale</b></li>
+        <li><b>Senf</b></li>
+        <li><b>Schurwolle</b></li>
+      </ol>
+      <h4>Gebe dein Antwort in das Eingabefeld ein.</h4>
+      <input type="number" placeholder="Eingabefeld" name="" id="question3" />
+      <button onclick="check3()">Check 3</button>
+      <p></p>
+      <h3 id="out3">3 Ausgabe</h3>
+    </div>
+
+    <p></p>
+
+    <div class="question-div4">
+      <h2>4 Frage</h2>
+      <p></p>
+      <h2>Wie lang ist die Küste Mecklenburg-Vorpommerns?</h2>
+      <p></p>
+      <ol>
+        <li><b>1835 Kilometer</b></li>
+        <li><b>736 Kilometer</b></li>
+        <li><b>337 Kilometer</b></li>
+        <li><b>1905 Kilometer</b></li>
+      </ol>
+      <h4>Gebe dein Antwort in das Eingabefeld ein.</h4>
+      <input type="number" placeholder="Eingabefeld" name="" id="question4" />
+      <button onclick="check4()">Check 4</button>
+      <p></p>
+      <h3 id="out4">4 Ausgabe</h3>
+    </div>
+
+    <p></p>
+
+    <div class="question-div5">
+      <h2>5 Frage</h2>
+      <p></p>
+      <h2>Welche zweite Stadt gehört zu Bremen?</h2>
+      <p></p>
+      <ol>
+        <li><b>Bremervörde</b></li>
+        <li><b>Delmenhorst</b></li>
+        <li><b>Bremerhafen</b></li>
+        <li><b>Wilhelmshaven</b></li>
+      </ol>
+      <h4>Gebe dein Antwort in das Eingabefeld ein.</h4>
+      <input type="number" placeholder="Eingabefeld" name="" id="question5" />
+      <button onclick="check5()">Check 5</button>
+      <p></p>
+      <h3 id="out5">5 Ausgabe</h3>
+    </div>
+
+    <p></p>
+
+    <div class="question-div6">
+      <h2>6 Frage</h2>
+      <p></p>
+      <h2>Welcher der 4 Antworten ist ein Fluss?</h2>
+      <p></p>
+      <ol>
+        <li><b>Rhein</b></li>
+        <li><b>Edersee</b></li>
+        <li><b>Müritz</b></li>
+        <li><b>Eibsee</b></li>
+      </ol>
+      <h4>Gebe dein Antwort in das Eingabefeld ein.</h4>
+      <input type="number" placeholder="Eingabefeld" name="" id="question6" />
+      <button onclick="check6()">Check 6</button>
+      <p></p>
+      <h3 id="out6">6 Ausgabe</h3>
+    </div>
+
+    <p></p>
+
+    <div class="question-div7">
+      <h2>7 Frage</h2>
+      <p></p>
+      <h2>Was ist ein deutsches Mittelgebirge</h2>
+      <p></p>
+      <ol>
+        <li><b>Fichtelgebirge</b></li>
+        <li><b>Schwarzwlad</b></li>
+        <li><b>Hunrück</b></li>
+        <li><b>Röhn</b></li>
+      </ol>
+      <h4>Gebe dein Antwort in das Eingabefeld ein.</h4>
+      <input type="number" placeholder="Eingabefeld" name="" id="question7" />
+      <button onclick="check7()">Check 7</button>
+      <p></p>
+      <h3 id="out7">7 Ausgabe</h3>
+    </div>
+
+    <p></p>
+
+    <div class="question-div8">
+      <h2>8 Frage</h2>
+      <p></p>
+      <h2>Wie hieß der 1 Bundeskanzler?</h2>
+      <p></p>
+      <ol>
+        <li><b>Matthias Wissmann</b></li>
+        <li><b>Willy Brandt</b></li>
+        <li><b>Konrad Adenauer</b></li>
+        <li><b>Rainer Ortleb</b></li>
+      </ol>
+      <h4>Gebe dein Antwort in das Eingabefeld ein.</h4>
+      <input type="number" placeholder="Eingabefeld" name="" id="question8" />
+      <button onclick="check8()">Check 8</button>
+      <p></p>
+      <h3 id="out8">8 Ausgabe</h3>
+    </div>
+
+    <p></p>
+
+    <div class="question-div9">
+      <h2>9 Frage</h2>
+      <p></p>
+      <h2>Am 3. Oktober feiert man in Deutschland den Tag der Deutschen:</h2>
+      <p></p>
+      <ol>
+        <li><b>Bundesländer</b></li>
+        <li><b>Städte</b></li>
+        <li><b>Nation</b></li>
+        <li><b>Einheit</b></li>
+      </ol>
+      <h4>Gebe dein Antwort in das Eingabefeld ein.</h4>
+      <input type="number" placeholder="Eingabefeld" name="" id="question9" />
+      <button onclick="check9()">Check 9</button>
+      <p></p>
+      <h3 id="out9">9 Ausgabe</h3>
+    </div>
+
+    <p></p>
+
+    <div class="question-div10">
+      <h2>10 Frage</h2>
+      <p></p>
+      <h2>In was ist die Deutschland heute gegliedert?</h2>
+      <p></p>
+      <ol>
+        <li><b>Einen Oststaat und einen Weststaat</b></li>
+        <li><b>Bund, Länder und Kommunen</b></li>
+        <li><b>4 Besatzungszonen</b></li>
+        <li><b>16 Katone</b></li>
+      </ol>
+      <h4>Gebe dein Antwort in das Eingabefeld ein.</h4>
+      <input type="number" placeholder="Eingabefeld" name="" id="question10" />
+      <button onclick="check10()">Check 10</button>
+      <p></p>
+      <h3 id="out10">10 Ausgabe</h3>
+    </div>
+
+    <script src="answers.js"></script>
+    <script src="checkInput.js"></script>
+    <script src="checkAnswers.js"></script>
+    <script src="score.js"></script>
+    <script src="true-and-false.js"></script>
+
+    <script src="finish-game.js"></script>
+
+    <script>
+      //
+    </script>
+  </body>
+</html>
