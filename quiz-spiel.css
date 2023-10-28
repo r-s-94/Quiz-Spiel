@@ -1,0 +1,133 @@
+.game-headline {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+input {
+  text-align: center;
+}
+
+.question-div1 {
+  margin-left: 50px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  width: 600px;
+}
+
+.question-div2 {
+  margin-left: 50px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  width: 600px;
+}
+
+.question-div3 {
+  margin-left: 50px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  width: 600px;
+}
+
+.question-div4 {
+  margin-left: 50px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  width: 600px;
+}
+
+.question-div5 {
+  margin-left: 50px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  width: 600px;
+}
+
+.question-div6 {
+  margin-left: 50px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  width: 600px;
+}
+
+.question-div7 {
+  margin-left: 50px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  width: 600px;
+}
+
+.question-div8 {
+  margin-left: 50px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  width: 600px;
+}
+
+.question-div9 {
+  margin-left: 50px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  width: 600px;
+}
+
+.question-div10 {
+  margin-left: 50px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  width: 600px;
+  margin-bottom: 100px;
+}
+
+.score-container {
+  width: 500px;
+  height: 200px;
+  z-index: 1;
+  position: fixed;
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-left: 700px;
+  padding: 5px;
+}
+
+.score-headline {
+  text-align: center;
+}
+
+.score-point {
+  text-align: center;
+  font-size: 25px;
+}
+
+#finish-out {
+  text-align: center;
+}
